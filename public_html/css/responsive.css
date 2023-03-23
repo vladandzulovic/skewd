@@ -1,0 +1,147 @@
+@media(min-width:576px){
+    /* SM breakpoint*/
+    .section-title{
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+
+
+}
+
+@media(min-width: 768px){
+    /* MD breakpoint*/
+
+    .hero .carousel-item{
+        padding: 250px 0;
+    }
+
+    .hero .hero-title{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .about,
+    .video,
+    .team,
+    .principles{
+        padding: 90px 0;
+    }
+
+    .parallax{
+        padding: 200px 0;
+    }
+
+
+
+    .portfolio{
+        clip-path: polygon(0 11%, 100% 0, 100% 89%, 0 100%);
+        padding: 150px 0;
+    }
+
+    .contact{
+        padding: 165px 0 92px;
+    }
+}
+
+
+@media(min-width: 992px){
+    /* LG breakpoint*/
+
+    .hero .carousel-item{
+        padding: 300px 0;
+    }
+
+    .hero .hero-title{
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .hero .carousel-indicators{
+        bottom: 150px;
+    }
+
+    .about,
+    .video,
+    .team,
+    .principles{
+        padding: 120px 0;
+    }
+
+    .parallax{
+        padding: 250px 0;
+    }
+
+    .portfolio{
+        padding: 166px 0 269px;
+    }
+
+    .contact .contact-form .btn{
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media(min-width: 1200px){
+    /* XL breakpoint*/
+
+    .container{
+        max-width: 1190px;
+    }
+    header .navbar{
+        padding: 25px 0;
+    }
+    header.scaled .navbar{
+    padding: 0.5rem 0;
+}
+
+    .hero .carousel-item{
+        padding: 300px 0 360px;
+    }
+
+    .hero .hero-title{
+        font-size: 82px;
+        line-height: 96px;
+    }
+
+    .hero .carousel-indicators{
+        bottom: 181px;
+    }
+
+    .about,
+    .team,
+    .principles{
+        padding: 120px 0 170px;
+    }
+
+    .video{
+        padding: 161px 0 223px;
+    }
+
+    .parallax{
+        padding: 364px 0 317px;
+    }
+
+
+    .portfolio .lead{
+        margin-bottom: 64px !important;
+    }
+
+    .achievement .lead{
+        margin-bottom: 26px !important;
+    }
+
+    .contact .lead{
+        margin-bottom: 62px !important;
+    }
+}
+
+@media(min-width: 1400px){
+    /* XXL breakpoint*/
+
+    .container{
+        max-width: 1190px;
+    }
+
+}
